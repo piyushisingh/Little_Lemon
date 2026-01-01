@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.littlelemon.menu.ui.menu.MenuFragment"
+        android:label="Menu"
+        tools:layout="@layout/fragment_menu">
+
+        <action
+            android:id="@+id/action_menuFragment_to_menuDetailFragment"
+            app:destination="@id/menuDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/menuDetailFragment"
+        android:name="com.littlelemon.menu.ui.detail.MenuDetailFragment"
+        android:label="Menu Detail"
+        tools:layout="@layout/fragment_menu_detail">
+
+        <argument
+            android:name="itemId"
+            app:argType="integer" />
+        <argument
+            android:name="itemName"
+            app:argType="string" />
+        <argument
+            android:name="itemPrice"
+            app:argType="float" />
+        <argument
+            android:name="itemCategory"
+            app:argType="string" />
+        <argument
+            android:name="itemImageRes"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>

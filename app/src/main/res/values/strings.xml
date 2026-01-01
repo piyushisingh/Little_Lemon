@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Little Lemon</string>
+    <string name="toolbar_title">Little Lemon</string>
+    <string name="search_hint">Search menu…</string>
+    <string name="empty_state">No items found</string>
+    <string name="overflow_menu">More options</string>
+    <string name="item_image_desc">Menu item image</string>
+    <string name="detail_price">Price: $%1$.1f</string>
+    <string name="detail_category">Category: %1$s</string>
+</resources>
