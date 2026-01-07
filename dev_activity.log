@@ -74,3 +74,4 @@ Activity on 2026-01-07T11:13:22: Add placeholder images
 Activity on 2026-01-07T14:40:59: Fix minor UI bug
 Activity on 2026-01-07T11:30:18: Fix fragment lifecycle issue
 Activity on 2026-01-07T12:04:30: Update icons
+Activity on 2026-01-07T17:46:15: Add tests for ViewModel
