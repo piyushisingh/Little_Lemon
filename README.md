@@ -7,6 +7,14 @@ The project demonstrates a maintainable Android implementation using **MVVM, Kot
 
 ---
 
+## About
+
+**Little Lemon** is a native Android restaurant menu application built with Kotlin. It provides a simple, interactive way to explore a restaurant's food, drinks, and desserts through a searchable and sortable menu catalogue.
+
+The application demonstrates core Android development practices, including MVVM architecture, reactive UI state with Kotlin Flow and StateFlow, repository-based data access, RecyclerView list rendering, and type-safe navigation between menu and item-detail screens.
+
+This project is focused on the **menu discovery experience**. Its current data source is local and hardcoded; backend services, online ordering, and payment features are outside the current implementation.
+
 ## Table of Contents
 
 - [Overview](#overview)
