@@ -345,7 +345,7 @@ The tests use:
 
 ### Test coverage
 
-The test suite contains 22 test methods covering:
+The test suite contains 24 test methods covering:
 
 | Area | What is tested |
 |---|---|
